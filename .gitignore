@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local database files
+*.sqlite3
+*.db
+
+# Node
+node_modules/
+.next/
+out/
+build/
+npm-debug.log*
+
+# Environment & secrets — NEVER commit these
+.env
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
